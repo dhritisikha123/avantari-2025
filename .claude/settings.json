@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node /private/tmp/claude-501/-Users-dhritisikhakakoti-Downloads-avantair-2025/704791fa-4254-4325-a041-28aff28583b2/scratchpad/check_blog2.js)",
+      "Bash(node /private/tmp/claude-501/-Users-dhritisikhakakoti-Downloads-avantair-2025/704791fa-4254-4325-a041-28aff28583b2/scratchpad/compute_clamp2.js)",
+      "Bash(node -e ' *)",
+      "Bash(sips -g pixelWidth -g pixelHeight -g dpiWidth -g formatOptions Team.jpg)",
+      "Bash(find /private/tmp/claude-501 -newer /Users/dhritisikhakakoti/Downloads/avantair-2025/src/images/newWeb/Team.jpg -iname \"*.png\" -o -newer /Users/dhritisikhakakoti/Downloads/avantair-2025/src/images/newWeb/Team.jpg -iname \"*.jpg\" 2>/dev/null | grep -v node_modules *)",
+      "Read(//private/var/folders/**)",
+      "Read(//Users/dhritisikhakakoti/Downloads/**)",
+      "Bash(sips --help)",
+      "Bash(sips -c 4096 2333 raw_image_1.png --out cropped.png)",
+      "Bash(sips --resampleWidth 1440 cropped.png --out resized.png)",
+      "Bash(sips -s format jpeg -s formatOptions 85 resized.png --out Team_1440.jpg)",
+      "Bash(sips -g pixelWidth -g pixelHeight Team_1440.jpg)",
+      "Bash(cp Team.jpg Team-original-870w.jpg)",
+      "Bash(cp /tmp/Team_1440.jpg Team.jpg)",
+      "Bash(sips -g pixelWidth -g pixelHeight Team.jpg)",
+      "Bash(sips -g pixelWidth -g pixelHeight Hyderabad.jpg)",
+      "Bash(curl -sL -o /Users/dhritisikhakakoti/Downloads/avantair-2025/src/images/newWeb/icons/playButton.svg \"https://www.figma.com/api/mcp/asset/3a53d928-96ec-4777-93fd-66c3a11252a9.svg\")"
+    ]
+  }
+}

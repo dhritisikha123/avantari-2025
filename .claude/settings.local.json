@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run:*)",
+      "mcp__figma__get_design_context",
+      "mcp__figma__get_metadata",
+      "Bash(lsof -ti:8000)",
+      "Bash(ps -p 549 -o pid,ppid,command)",
+      "Bash(ps -p 11252 -o pid,ppid,command)",
+      "Bash(kill 11248 11252)",
+      "mcp__figma__download_assets",
+      "Bash(md5 /private/tmp/claude-501/-Users-dhritisikhakakoti-Downloads-avantair-2025/704791fa-4254-4325-a041-28aff28583b2/scratchpad/figma_assets/hyd_correct.jpeg /Users/dhritisikhakakoti/Downloads/avantair-2025/src/images/newWeb/HyderabadL.jpg)",
+      "Bash(nohup npx gatsby develop)",
+      "Bash(echo \"started, pid: $!\")",
+      "Bash(kill %1)",
+      "Bash(pkill -f \"gatsby develop\")",
+      "Bash(disown)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:8000/blog)",
+      "Bash(curl -s http://localhost:8000/blog)",
+      "Read(//private/tmp/**)",
+      "Bash(curl -sL http://localhost:8000/blog -o /tmp/blog_page.html -w \"final status: %{http_code}\\\\n\")",
+      "Read(//tmp/**)",
+      "Bash(curl -sI http://localhost:8000/blog)",
+      "Bash(curl -sIL http://localhost:8000/blog)",
+      "Bash(node -e ' *)",
+      "Bash(npx prettier *)",
+      "mcp__figma__get_screenshot",
+      "Bash(curl -sL -o filter_btn.png \"https://www.figma.com/api/mcp/asset/57e1cdf5-6e17-4ccd-906e-9bf5f049cd8a.png\")",
+      "Bash(echo \"exit:$?\")",
+      "Bash(curl -sL -o /tmp/d1_new.png \"https://www.figma.com/api/mcp/asset/6fc74685-7117-4b78-a742-a6b5173d1245.png\")",
+      "Bash(curl -sL -o /tmp/d2_new.png \"https://www.figma.com/api/mcp/asset/c5224f4c-e01f-436d-953b-de0251497049.png\")",
+      "Bash(cp /tmp/d1_new.png /Users/dhritisikhakakoti/Downloads/avantair-2025/src/images/newWeb/d1.png)",
+      "Bash(cp /tmp/d2_new.png /Users/dhritisikhakakoti/Downloads/avantair-2025/src/images/newWeb/d2.png)"
+    ]
+  }
+}

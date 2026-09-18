@@ -1,0 +1,104 @@
+.cards-desktop {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.cards-desktop .card {
+  flex: 1;
+  text-align: center;
+  padding: 1rem;
+  position: relative;
+  padding: 120px 30px 100px 30px;
+  width: 40%;
+}
+
+/* Add a vertical border to all cards except the last one */
+.cards-desktop .card:not(:last-child) {
+  /* border-right: 1px solid #000; */
+}
+
+.cards-mobile {
+  display: none;
+}
+
+.card {
+  width: 100%;
+  text-align: center;
+}
+
+.titleBlog {
+  font-family: "Corben", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px; /* Initial font size */
+  line-height: 26px; /* Adjusted line-height for compact text */
+  color: #404040;
+  margin: 0;
+  /* Set consistent height */
+  min-height: 66px; /* 3 lines of 22px line-height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.contentBlog {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px; /* Initial font size */
+  line-height: 20px; /* Adjusted line-height for compact text */
+  color: #404040;
+  margin: 0;
+  /* padding-top: 20px; */
+}
+
+/* Media query for mobile view */
+@media (max-width: 768px) {
+  .card-section {
+    margin-top: 80px;
+    margin-bottom: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .titleBlog {
+    font-size: 18px;
+    line-break: 24px;
+  }
+
+  .cards-desktop {
+    display: none;
+  }
+
+  .cards-mobile {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    /* padding: 0 20px; */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.18)
+  }
+
+  .cards-mobile .card {
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    padding: 24px 20px;
+  }
+
+  .cards-mobile .card:not(:last-child) {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.18);
+  }
+
+  .cards-mobile .titleBlog,
+  .cards-mobile .contentBlog {
+    text-align: left;
+    justify-content: flex-start;
+  }
+
+  .cards-mobile .titleBlog {
+    min-height: 0;
+    padding: 8px 0 0 0;
+  }
+}

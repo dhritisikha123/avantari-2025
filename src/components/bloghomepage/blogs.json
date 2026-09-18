@@ -1,0 +1,370 @@
+[
+  {
+    "id": 1,
+    "filter": "SOFTWARE",
+    "image": "",
+    "title": "How Wearable App Development Improves Medical Care and Expands Access",
+    "url": "wearable-app-development-healthcare",
+    "docs": "A builder's guide to healthcare wearable applications — from sensor selection and firmware architecture to EHR integration, compliance, and clinical deployment"
+  },
+
+  {
+    "id": 2,
+    "filter": "PROCESS",
+    "image": "https://darkslategray-salmon-190399.hostingersite.com/hipaa.png",
+    "title": "How HIPAA Relates to Healthcare Laws and Regulations Across Canada, the UK, Australia, and MENA",
+    "url": "hipaa-healthcare-laws-canada-uk-australia-mena",
+    "docs": "A practical compliance guide for medical device builders, health app founders, and digital health teams expanding into global markets"
+  },
+
+  {
+    "id": 3,
+    "filter": "PROCESS",
+    "image": "https://darkslategray-salmon-190399.hostingersite.com/iottest.png",
+    "title": "IoT Testing Guide",
+    "url": "iot-testing-guide",
+    "docs": "A practical IoT testing guide covering firmware testing, BLE protocol validation, OTA update testing, security testing, and performance testing for connected devices. Written by hardware engineers with 12+ years of IoT product experience."
+  },
+
+  {
+    "id": 4,
+    "filter": "PROCESS",
+    "image": "https://darkslategray-salmon-190399.hostingersite.com/proddev.png",
+    "title": "Product Development: The Complete Guide for Hardware Founders & Product Teams",
+    "url": "hardware-product-development-guide",
+    "docs": "From first idea to factory floor — a practical, end-to-end guide built for founders, PMs, and entrepreneurs navigating the complexity of physical product development."
+  },
+
+  {
+    "id": 5,
+    "filter": "HARDWARE",
+    "image": "https://darkslategray-salmon-190399.hostingersite.com/resized_image.png",
+    "title": "The Future of Intelligent Hardware Development: A 2026 Roadmap",
+    "url": "intelligent-hardware-development",
+    "docs": "The year 2026 marks a pivotal shift in the landscape of technology: the era of truly Intelligent Hardware."
+  },
+
+  {
+    "id": 6,
+    "filter": "PROCESS",
+    "image": "https://darkslategray-salmon-190399.hostingersite.com/roadmap.png",
+    "title": "The 2026 Prototyping Roadmap: From Breadboard to Mass Production in Six Months",
+    "url": "prototyping-roadmap",
+    "docs": "In the world of intelligent hardware, timing often determines success. A company that brings a product to market even a few months earlier can define the category, capture early adopters, and attract investment. "
+  },
+
+  {
+    "id": 7,
+    "filter": "HARDWARE",
+    "image": "https://darkslategray-salmon-190399.hostingersite.com/sustainable.png",
+    "title": "Sustainable Hardware & Circular Design: Building Technology for the Future",
+    "url": "sustainable-hardware-and-circular-design",
+    "docs": "As intelligent hardwarebecomes part of everyday life—from wearables and smart homes to industrial sensors—the environmental impact of these devices is coming under greater scrutiny."
+  },
+
+  {
+    "id": 8,
+    "filter": "PROCESS",
+    "image": "https://darkslategray-salmon-190399.hostingersite.com/codesign.png",
+    "title": "Hardware-Software Co-Design: Why Silos Are the #1 Killer of IoT Startups",
+    "url": "hardware-software-co-design",
+    "docs": "In the early days of embedded systems, product development often followed a simple sequence: build the hardware first, and once the physical device was ready, develop the software that runs on top of it. That model worked when devices were relatively simple."
+  },
+
+  {
+    "id": 9,
+    "filter": "AI",
+    "image": "https://darkslategray-salmon-190399.hostingersite.com/edgeVScloud.png",
+    "title": "Edge AI vs. Cloud AI: Decision Framework for Latency-Sensitive Hardware",
+    "url": "edge-AI-vs-cloud-AI",
+    "docs": "As hardware devices become more intelligent, one of the most important architectural questions engineers face is where AI processing should actually happen."
+  },
+
+  {
+    "id": 10,
+    "filter": "AI",
+    "image": "https://darkslategray-salmon-190399.hostingersite.com/agenticAi.png",
+    "title": "Agentic AI Integration in Hardware: From Reactive to Proactive Systems",
+    "url": "agenticAI-in-hardware",
+    "docs": "For many years, hardware systems have primarily operated in a reactive way. Devices performed tasks only after receiving explicit commands or when simple programmed conditions were met."
+  },
+
+  {
+    "id": 11,
+    "filter": "AI",
+    "image": "https://darkslategray-salmon-190399.hostingersite.com/nextgen.png",
+    "title": "Designing the Next Generation of AI-Enabled Hardware Systems",
+    "url": "next-gen-AI-enabled-hardware-system",
+    "docs": "Discover how Avantari Technologies designs AI-powered hardware systems with end-to-end product design and development services for next-gen devices"
+  },
+
+  {
+    "id": 12,
+    "filter": "SOFTWARE",
+    "image": "https://darkslategray-salmon-190399.hostingersite.com/nativeApps.png",
+    "title": "Native Apps Powered by AI, IoT & AR/VR for Smart Products",
+    "url": "native-apps-powered-by-AI",
+    "docs": "Discover how Avantari builds intelligent native apps by integrating AI, IoT, Bluetooth, and AR/VR to create connected, future-ready digital experiences."
+  },
+
+  {
+    "id": 13,
+    "filter": "SOFTWARE",
+    "image": "https://darkslategray-salmon-190399.hostingersite.com/hrtech.png",
+    "title": "How HR Tech Became Child's Play",
+    "url": "hr-tech-childplay",
+    "docs": "Go behind the scenes of 'Evolve or Fossilise,' the interactive game that made Darwinbox a hit at HR Tech Las Vegas. See how we did it"
+  },
+
+  {
+    "id": 14,
+    "filter": "AI",
+    "image": "https://darkslategray-salmon-190399.hostingersite.com/darwin.png",
+    "title": "Bringing Darwin to Life: Avantari's AI Hologram",
+    "url": "bring-Darwin-to-life",
+    "docs": "Discover how Avantari used AI, deepfake, and holograms to bring Charles Darwin to life as an interactive brand mascot for a major tech event."
+  },
+
+  {
+    "id": 15,
+    "filter": "HARDWARE",
+    "image": "https://darkslategray-salmon-190399.hostingersite.com/packaging.png",
+    "title": "Industrial & Packaging Design: Why the First Impression Matters",
+    "url": "industrial-and-packaging-design",
+    "docs": "Smart design drives trust, sales, and loyalty—starting with the very first glance.Industrial and packaging design shape how customers feel before they ever use your product."
+  },
+
+  {
+    "id": 16,
+    "filter": "AI",
+    "image": "https://darkslategray-salmon-190399.hostingersite.com/hologram.png",
+    "title": "Holograms in 2025: How AI Avatars Are Transforming Brand Engagement",
+    "url": "holograms-in-2025",
+    "docs": "AI holograms are redefining how brands interact—live, personal, and unforgettable."
+  },
+
+  {
+    "id": 17,
+    "filter": "PROCESS",
+    "image": "https://darkslategray-salmon-190399.hostingersite.com/endToendImage.png",
+    "title": "End-to-End Hardware Development: The Ultimate Guide (Idea to Market Release)",
+    "url": "end-to-end-hardware-development",
+    "docs": "From schematic to shipping — a clear, structured guide to navigating the full hardware journey with fewer surprises and smarter scaling."
+  },
+
+  {
+    "id": 18,
+    "filter": "HARDWARE",
+    "image": "https://darkslategray-salmon-190399.hostingersite.com/customPCBHome.png",
+    "title": "Custom PCB Design services: What Startups should know before manufacturing",
+    "url": "custom-pcb-design-services",
+    "docs": "A step-by-step guide for startups to turn circuit ideas into tested prototypes — faster, cheaper, and ready for scale with confidence."
+  },
+
+  {
+    "id": 19,
+    "filter": "AI",
+    "image": "https://darkslategray-salmon-190399.hostingersite.com/aiDrivenHome.png",
+    "title": "AI-Driven Hardware Development: How Does It Hold Future Potential?",
+    "url": "ai-driven-hardware-development",
+    "docs": "Explore how AI is accelerating hardware innovation—from generative design to edge intelligence—and why it's redefining the future of engineering across every major industry."
+  },
+
+  {
+    "id": 20,
+    "filter": "AI",
+    "image": "https://darkslategray-salmon-190399.hostingersite.com/howAIToolsHome.png",
+    "title": "How AI Tools for Hardware Design Enhance IoT Integration Solutions",
+    "url": "how-ai-tool-hardware-design-enhance-iot",
+    "docs": "Discover how AI is reshaping the way hardware and IoT devices connect, communicate, and adapt—boosting efficiency, performance, and decision-making in real time."
+  },
+
+  {
+    "id": 21,
+    "filter": "SOFTWARE",
+    "image": "https://darkslategray-salmon-190399.hostingersite.com/iotHome.png",
+    "title": "IoT integration solutions: Connecting Smart Devices and Systems",
+    "url": "connecting-smart-devices-and-systems",
+    "docs": "Unlock the power of IoT by seamlessly connecting smart devices and business systems—turning raw data into automation, insights, and efficiency."
+  },
+
+  {
+    "id": 22,
+    "filter": "HARDWARE",
+    "image": "https://darkslategray-salmon-190399.hostingersite.com/dhyanasmartring1.png",
+    "title": "Dhyana Smart Ring: The AI-Powered Meditation Wearable Changing Lives",
+    "url": "dhyana-smart-ring-the-ai-powered-meditation-wearable-changing-lives",
+    "docs": "Dhyana Smart Ring: AI-powered mindfulness on your finger. Tracks stress, sleep, focus in real time—personalized meditation, measurable results."
+  },
+
+  {
+    "id": 23,
+    "filter": "HARDWARE",
+    "image": "https://darkslategray-salmon-190399.hostingersite.com/concepttocreation1.png",
+    "title": "From Concept to Creation: How Avantari Leads in Custom PCB Design Services",
+    "url": "from-concept-to-creation",
+    "docs": "Avantari's custom PCB design services turn ideas into high-performance electronics—powering IoT, AI, and smart devices with precision engineering"
+  },
+
+  {
+    "id": 24,
+    "filter": "AI",
+    "image": "https://darkslategray-salmon-190399.hostingersite.com/revolution1.png",
+    "title": "How Avantari Is Revolutionizing Embedded AI Projects",
+    "url": "how-avantari-is-revolutionizing-embedded-ai-projects",
+    "docs": "Avantari is redefining embedded AI, empowering smarter, responsive products like the Dhyana Smart Ring through edge intelligence, design precision, and real-world impact."
+  },
+
+  {
+    "id": 25,
+    "filter": "AI",
+    "image": "https://darkslategray-salmon-190399.hostingersite.com/shapestomorrow1.png",
+    "title": "How Avantari's AI-IoT Innovation Shapes Tomorrow's Smart Products",
+    "url": "how-avantari-ai-iot-innovation-shapes-tomorrows-smart-products",
+    "docs": "Explore how Avantari's AI-IoT synergy powers smart products that adapt, learn, and connect — driving the next leap in consumer technology"
+  },
+
+  {
+    "id": 26,
+    "filter": "HARDWARE",
+    "image": "https://darkslategray-salmon-190399.hostingersite.com/iotembedded1.png",
+    "title": "IoT Embedded Systems: Your Complete Integration Guide",
+    "url": "iot-embedded-systems-your-complete-integration-guide",
+    "docs": "Learn how to integrate secure, scalable IoT embedded systems for real-world success — from smart wearables to industrial automation, with Avantari's proven approach."
+  },
+
+  {
+    "id": 27,
+    "filter": "SOFTWARE",
+    "image": "https://darkslategray-salmon-190399.hostingersite.com/masteringTheDesignPrinciples1.png",
+    "title": "Mastering the Design Principles of UI/UX in Smart Wearables",
+    "url": "mastering-design",
+    "docs": "Discover how great UI/UX transforms smart wearables into indispensable tools, with design strategies, constraints, and real-world insights from Avantari's Dhyana."
+  },
+
+  {
+    "id": 28,
+    "filter": "HARDWARE",
+    "image": "https://darkslategray-salmon-190399.hostingersite.com/futureofAIhome1.png",
+    "title": "The Future of AI Hardware: Innovations from Avantari Labs",
+    "url": "innovation-of-avantari",
+    "docs": "Explore the evolving landscape of AI hardware architecture and discover how Avantari Labs is designing adaptable, efficient processors for tomorrow's intelligence."
+  },
+
+  {
+    "id": 29,
+    "filter": "HARDWARE",
+    "image": "https://darkslategray-salmon-190399.hostingersite.com/topProd.png",
+    "title": "Top Electronic Product Development Companies in India: Why Avantari Stands Out",
+    "url": "top-electronic-product-dev",
+    "docs": "Explore India's electronics innovation boom and discover how Avantari leads with IoT, AI, and end-to-end product expertise."
+  },
+
+  {
+    "id": 30,
+    "filter": "AI",
+    "image": "https://darkslategray-salmon-190399.hostingersite.com/DeviceToAI.png",
+    "title": "Device to AI: Building Smarter IoT Ecosystems",
+    "url": "device-to-AI",
+    "docs": "Explore how IoT evolves with AI, overcoming constraints to create smart ecosystems for homes and industries. Learn benefits, challenges, and future trends with Avantari."
+  },
+
+  {
+    "id": 31,
+    "filter": "PROCESS",
+    "image": "https://darkslategray-salmon-190399.hostingersite.com/productDesignProcess.png",
+    "title": "Product Design Process: Bridging Creativity and Engineering in Modern Product Development",
+    "url": "product-design-process",
+    "docs": "Discover how the product design process merges creativity & engineering in electronics development, from research to manufacturing,"
+  },
+
+  {
+    "id": 32,
+    "filter": "MANUFACTURING",
+    "image": "https://darkslategray-salmon-190399.hostingersite.com/TheFutureIsNow.png",
+    "title": "The Future is Now: AI and Factory Automation in 2025 and Beyond",
+    "url": "the-future-is-now-AI",
+    "docs": "AI transforms factory automation in 2025 with predictive maintenance, smart robotics, and more. Discover benefits, challenges, and Avantari's role in smart manufacturing."
+  },
+
+  {
+    "id": 33,
+    "filter": "AI",
+    "image": "https://darkslategray-salmon-190399.hostingersite.com/AITransformation.png",
+    "title": "How AI is Transforming Hardware Design and Manufacturing",
+    "url": "ai-transform-hw",
+    "docs": "AI revolutionizes hardware design with predictive modeling, automation, and smart manufacturing. Avantari leads with AI-driven innovation."
+  },
+
+  {
+    "id": 34,
+    "filter": "PROCESS",
+    "image": "https://darkslategray-salmon-190399.hostingersite.com/LifeCycle.png",
+    "title": "The Full Lifecycle Start to End Process from Idea to Market Launch",
+    "url": "from-idea-to-market-launch",
+    "docs": "End-to-end electronic product development: from idea to market with PCB design, prototyping, and compliance. Avantari guides you."
+  },
+
+  {
+    "id": 35,
+    "filter": "HARDWARE",
+    "image": "https://darkslategray-salmon-190399.hostingersite.com/IoT.png",
+    "title": "Intelligent IoT Devices from Embedded World: What are the Future of Devices?",
+    "url": "intelligent-iot-devices",
+    "docs": "IoT embedded systems drive smart devices with AI, edge computing, and low-power tech. Avantari shapes the future of IoT innovation."
+  },
+
+  {
+    "id": 36,
+    "filter": "HARDWARE",
+    "image": "https://darkslategray-salmon-190399.hostingersite.com/innovation.png",
+    "title": "Everyday Innovation: The Role of Consumer Electronics Product Design in Shaping the Future",
+    "url": "everyday-innovation",
+    "docs": "Consumer electronics design blends usability and style. Avantari shapes the future with innovative devices."
+  },
+
+  {
+    "id": 37,
+    "filter": "HARDWARE",
+    "image": "https://darkslategray-salmon-190399.hostingersite.com/embeddedHW.png",
+    "title": "What Are Embedded Hardware Design Services?",
+    "url": "embedded-hardware-design-services",
+    "docs": "Embedded hardware design powers IoT, healthcare, and more. Avantari excels in PCB, sensors, and power management."
+  },
+
+  {
+    "id": 38,
+    "filter": "MANUFACTURING",
+    "image": "https://darkslategray-salmon-190399.hostingersite.com/electronics.png",
+    "title": "Developing Electronics in India: Right from Ideation to Execution",
+    "url": "developing-electronics-in-India",
+    "docs": "India's rise as a hub for end-to-end electronics development, from ideation to production, with Avantari driving innovation."
+  },
+
+  {
+    "id": 39,
+    "filter": "SOFTWARE",
+    "image": "https://darkslategray-salmon-190399.hostingersite.com/integration.png",
+    "title": "Integrating IoT Solutions into Existing Infrastructure",
+    "url": "iot-solutions-integration",
+    "docs": "IoT integration enhances efficiency, insights, and competitiveness in businesses, tackling challenges with strategic planning and modern tech."
+  },
+
+  {
+    "id": 40,
+    "filter": "SOFTWARE",
+    "image": "https://darkslategray-salmon-190399.hostingersite.com/topDesign.png",
+    "title": "Top 5 UI/UX Design Principle for Technical Products",
+    "url": "ui-ux-design-principle",
+    "docs": "UI/UX design for tech products hinges on user-centricity, consistency, simplicity, accessibility, and performance to craft seamless, engaging digital experiences."
+  },
+
+  {
+    "id": 41,
+    "filter": "AI",
+    "image": "https://darkslategray-salmon-190399.hostingersite.com/role.png",
+    "title": "AI Role in Modern Hardware Development",
+    "url": "ai-role-hardware",
+    "docs": "AI transforms hardware dev, streamlining design, boosting manufacturing, and enabling real-time innovation with algorithms and embedded systems."
+  }
+]

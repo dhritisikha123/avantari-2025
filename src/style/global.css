@@ -1,0 +1,15 @@
+/* body {
+  cursor: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij48Y2lyY2xlIGN4PSI4IiBjeT0iOCIgcj0iNCIgZmlsbD0iYmxhY2siIC8+PC9zdmc+"),
+    auto;
+} */
+
+
+* {
+  cursor: none;
+}
+
+@media screen and (max-width: 567px) {
+  * {
+    cursor: pointer !important;
+  }
+}

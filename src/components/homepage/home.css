@@ -1,0 +1,8 @@
+/* parallax.css — import this globally, or make it a styled-component */
+.parallax-slide {
+  position: sticky;
+  top: 0;
+  min-height: 100vh;   /* natural content height still applies if content is taller */
+  background: #fff;    /* MUST be opaque — this is what covers the previous slide */
+  z-index: 1;
+}

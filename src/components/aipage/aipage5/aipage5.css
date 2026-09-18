@@ -1,0 +1,132 @@
+.grid-containerA {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+  /* height: 100%; */
+}
+
+.aipageContact {
+  display: block;
+  background-color: #c3ff00;
+  padding: 10px 20px;
+  border-radius: 56px;
+  width: 120px;
+  margin: 0 auto;
+}
+.aipageContactP {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 17px;
+  text-align: center;
+  margin: 0;
+}
+@media only screen and (max-width: 567px) {
+  .aiimg {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 568px) {
+  .aiimg {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .grid-containerA {
+    grid-template-columns: 1fr; /* Single column layout */
+    grid-auto-rows: minmax(auto, 1fr); /* Ensure equal height rows */
+  }
+  .grid-itemA {
+    border: none; /* Remove borders for all items */
+    &:nth-child(2) {
+      /* Add borders only to the middle row (second item in a 3-column grid) */
+      /* border-top: 1px solid #000000; */
+      /* border-bottom: 1px solid #000000; */
+    }
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .aipageContact {
+    display: block;
+  }
+  .grid-containerA {
+    border-left: none; /* Remove left border */
+    border-right: none; /* Remove right border */
+    /* border-top: 1px solid #000000; */
+    /* border-bottom: 1px solid #000000; */
+  }
+}
+
+.grid-itemA {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  /* height: 100%; */
+}
+
+@media only screen and (min-width: 769px) {
+  .grid-itemA {
+    border: none; /* Remove borders for all items */
+    &:nth-child(2) {
+      /* Add borders only to the middle row (second item in a 3-column grid) */
+      /* border-left: 1px solid #000000; */
+      /* border-right: 1px solid #000000; */
+    }
+  }
+}
+
+.text {
+  height: 4.5em; /* Adjust height based on font size and line height */
+  line-height: 1.5em; /* Consistent spacing */
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-size: 1.125em; /* Initial font size */
+  font-weight: 400;
+  color: #4d4d4d;
+  text-align: center;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin: 0;
+}
+
+@media only screen and (min-width: 1440px) {
+  .text {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
+  .text {
+    font-size: 1em;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media only screen and (min-width: 568px) and (max-width: 768px) {
+  .text {
+    font-size: 14px;
+    height: 100%;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 567px) {
+  .text {
+    font-size: 0.875em;
+    height: 100%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+}

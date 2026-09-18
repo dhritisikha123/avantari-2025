@@ -1,0 +1,73 @@
+.custom-burger-btn {
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: #4d4d4d;
+}
+
+.custom-close-btn {
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: #4d4d4d;
+  position: absolute;
+  right: 30px;
+  top: 2px;
+  z-index: 1010;
+}
+
+@media only screen and (max-width: 767px) {
+  .custom-close-btn {
+    right: 16px;
+  }
+}
+.bm-burger-bars {
+  background: #373a47;
+}
+
+.bm-menu-wrap {
+  position: fixed !important; /* Ensure it stays fixed in place */
+  width: 100% !important; /* Full width */
+  height: 100vh !important; /* Full height */
+  top: 0 !important;
+  left: 0 !important;
+  transition: transform 0.5s ease-in-out; /* Smooth animation */
+  will-change: transform; /* Optimize performance */
+}
+
+.bm-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw; /* Full viewport width */
+  height: 100vh; /* Full viewport height */
+  background: #edeeee; /* Background color */
+  overflow-y: auto; /* Scrollable if needed */
+  transition: transform 0.5s ease-in-out; /* Smooth sliding animation */
+}
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3); /* Overlay effect */
+  z-index: 9999; /* Ensure it stays behind the menu */
+  transition: opacity 0.3s ease-in-out;
+}
+
+.bm-item-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bm-item-list a {
+  padding-bottom: 20px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.bm-item-list a:hover {
+  color: #000;
+}
