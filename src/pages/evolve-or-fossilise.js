@@ -280,6 +280,10 @@ const ShowcaseImg = styled.img`
   display: block;
   background-color: #d9d9d9;
   height: 350px;
+  /* Without this the browser default (fill) stretches the source; cover keeps
+     the source ratio and crops intentionally instead. */
+  object-fit: cover;
+  object-position: center;
   @media only screen and (max-width: 1023px) {
     height: 500px;
   }
@@ -605,7 +609,7 @@ const MetaValue = styled.p`
 const meta = [
   { label: "Client", value: "Darwinbox" },
   { label: "Year", value: "2025 → 2026" },
-  { label: "Discipline", value: "Interactive" },
+  { label: "Discipline", value: "Software" },
   { label: "Stack", value: "Web game + event" },
   { label: "Services", value: "Game design, build, launch" },
 ]
@@ -1013,7 +1017,7 @@ const EvolveOrFossilise = () => {
           <HeroGrid>
             <HeroContent>
               <Eyebrow style={{ color: `#547300` }}>
-                INTERACTIVE / DARWINBOX
+                SOFTWARE / DARWINBOX
               </Eyebrow>
               <HeroTitle>Evolve or Fossilise</HeroTitle>
               <CommonSubtitle>A game designed to evolve.</CommonSubtitle>

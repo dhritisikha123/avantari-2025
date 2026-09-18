@@ -3,6 +3,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
+import OutcomeContactCta from "../components/outcomeContactCta"
 import Seo from "../components/seo"
 import seoImg from "../images/og-images/pVOG.png"
 import styled from "styled-components"
@@ -732,6 +733,12 @@ const ProductValidation = () => {
             <img src={caseStudy.image} alt={caseStudy.title} />
           </CaseImage>
         </CaseSection>
+
+        <OutcomeContactCta
+          eyebrow="Ready to earn trust?"
+          headline="Test the product until the evidence holds."
+          action="Plan validation"
+        />
 
         <NavSection>
           <NavBlock>

@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
+import OutcomeContactCta from "../components/outcomeContactCta"
 import Seo from "../components/seo"
 import seoImg from "../images/og-images/productBriefOG.png"
 import styled from "styled-components"
@@ -725,6 +726,12 @@ const ProductBrief = () => {
             <img src={caseStudy.image} alt={caseStudy.title} />
           </CaseImage>
         </CaseSection>
+
+        <OutcomeContactCta
+          eyebrow="Ready to define it?"
+          headline="Turn the idea into a product everyone can build against."
+          action="Start a product brief"
+        />
 
         <NavSection>
           <NavBlock></NavBlock>
