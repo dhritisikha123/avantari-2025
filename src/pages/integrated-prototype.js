@@ -3,6 +3,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
+import OutcomeContactCta from "../components/outcomeContactCta"
 import Seo from "../components/seo"
 import seoImg from "../images/og-images/integratedOG.png"
 import styled from "styled-components"
@@ -734,6 +735,12 @@ const IntegratedPrototype = () => {
             <img src={caseStudy.image} alt={caseStudy.title} />
           </CaseImage>
         </CaseSection>
+
+        <OutcomeContactCta
+          eyebrow="Ready to make it real?"
+          headline="Bring every layer together in one working product."
+          action="Build the prototype"
+        />
 
         <NavSection>
           <NavBlock>

@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
+import OutcomeContactCta from "../components/outcomeContactCta"
 import Seo from "../components/seo"
 import seoImg from "../images/og-images/proofOfConceptOG.png"
 import styled from "styled-components"
@@ -729,6 +730,12 @@ const ProofOfConcept = () => {
             <img src={caseStudy.image} alt={caseStudy.title} />
           </CaseImage>
         </CaseSection>
+
+        <OutcomeContactCta
+          eyebrow="Ready to prove it?"
+          headline="Put the hardest assumption on the bench."
+          action="Build a proof of concept"
+        />
 
         <NavSection>
           <NavBlock>

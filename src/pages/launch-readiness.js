@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
+import OutcomeContactCta from "../components/outcomeContactCta"
 import Seo from "../components/seo"
 import seoImg from "../images/og-images/lrOG.png"
 import styled from "styled-components"
@@ -768,6 +769,12 @@ const LaunchReadiness = () => {
             <img src={caseStudy.image} alt={caseStudy.title} />
           </CaseImage>
         </CaseSection>
+
+        <OutcomeContactCta
+          eyebrow="Ready to ship?"
+          headline="Take the product from production-ready to out in the world."
+          action="Plan the launch"
+        />
 
         <NavSection>
           <NavBlock>
